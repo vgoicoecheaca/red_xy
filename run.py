@@ -1,6 +1,6 @@
 import numpy as np
 
-from manager import Manager
+from lib.manager import Manager
 m = Manager() 
 
 class RecoXY():

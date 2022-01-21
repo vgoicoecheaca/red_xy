@@ -2,12 +2,11 @@
 
 import configparser
 import copy
-from re import I 
 
 class Config():
     def __init__(self):
         self.parser = configparser.ConfigParser(inline_comment_prefixes='#')
-        self.parser.read('config.ini')
+        self.parser.read('lib/config.ini')
         self.sections = self.parser.sections() 
 
     def sec(self,section):

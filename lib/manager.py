@@ -1,9 +1,9 @@
 '''A Class to brige the different modules of this code'''
 
-from config import Config 
-from helper import Helper  
-from plotter import Plotter
-from cnn import CNN
+from lib.config import Config 
+from lib.helper import Helper  
+from lib.plotter import Plotter
+from lib.cnn import CNN
 
 class Manager():
     def __init__(self):
